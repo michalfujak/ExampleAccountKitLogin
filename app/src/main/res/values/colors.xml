@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6A1B9A</color>
+    <color name="colorPrimaryDark">#4A148C</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorNavigonBarButoons">#AA00FF</color>
+    <!-- Custom Color Pallete -->
+    <!-- LinearLayout -->
+    <!-- LinearLayout MODUL.Panel.Content.Main Background -->
+    <color name="colorLinearLayoutBackgroundLoginForm">#E1263238</color>                            <!-- BlueGray 50 900     --><!-- Opacity 90% -->
+    
+    <!-- LinearLayout Content.Main Background -->
+    <color name="colorLinearLayoutPanelContentMainStart">#D500F9</color>                            <!-- Purple 50 500 -->
+    <color name="colorLinearLayoutPanelContentMainEnd">#4A148C</color>                              <!-- Purple 50 900 -->
+    <!-- Linearlayout Content.Register Background -->
+    <color name="colorLinearLayoutPanelContentRegisterStart">#26A69A</color>                        <!-- Purple 50 500 -->
+    <color name="colorLinearLayoutPanelContentRegisterEnd">#4A148C</color>                          <!-- Purple 50 900 -->
+
+    <!-- Material.Edit.Text.APP... -->
+    <!-- APP:MET_BASE_COLOR ( Spodna linka pod textom ) -->
+    <color name="colorBaseLoginFormEmailTextEditWhite">#FFFFFF</color>                              <!-- White 100 -->
+    <color name="colorBaseLoginFormEmailTextEditRed">#C62828</color>                                <!-- Red 50 800 -->
+    <color name="colorBaseLoginFormEmailTextEditBlue">#283593</color>                               <!-- Bleu 800 -->
+    <color name="colorBaseLoginFormPasswordTextEditWhite">#FFFFFF</color>                           <!-- White 100 -->
+    <color name="colorBaseLoginFormPasswordTextEditRed">#C62828</color>                             <!-- Red 50 800 -->
+    <color name="colorBaseLoginFormPasswordTextEditBlue">#283593</color>                            <!-- Bleu 800 -->
+    <!-- Register -->
+    <color name="colorBaseRegisterFormEmailTextEditWhite">#FFFFFF</color>                           <!-- White 100 -->
+    <color name="colorBaseRegisterFormEmailTextEditRed">#C62828</color>                             <!-- Red 50 800 -->
+    <color name="colorBaseRegisterFormEmailTextEditBlue">#283593</color>                            <!-- Bleu 800 -->
+    <color name="colorBaseRegisterFormNameTextEditWhite">#FFFFFF</color>                            <!-- White 100 -->
+    <color name="colorBaseRegisterFormNameTextEditRed">#C62828</color>                              <!-- Red 50 800 -->
+    <color name="colorBaseRegisterFormNameTextEditBlue">#283593</color>                             <!-- Bleu 800 -->
+    <color name="colorBaseRegisterFormPasswordTextEditWhite">#FFFFFF</color>                        <!-- White 100 -->
+    <color name="colorBaseRegisterFormPasswordTextEditRed">#C62828</color>                          <!-- Red 50 800 -->
+    <color name="colorBaseRegisterFormPasswordTextEditBlue">#283593</color>                         <!-- Bleu 800 -->
+
+    <!-- Material.Edit.Text.APP... -->
+    <!-- APP:MET_UNDERLINE_COLOR -->
+    <color name="colorUnderlineLoginFormEmailTextEdit">#CFD8DC</color>                              <!-- BlueGray 50 100 -->
+    <color name="colorUnderlineLoginPasswordEmailTextEdit">#CFD8DC</color>                          <!-- BlueGray 50 100 -->
+    <!-- Register -->
+    <color name="colorUnderlineRegisterFormEmailTextEdit">#CFD8DC</color>                           <!-- BlueGray 50 100 -->
+    <color name="colorUnderlineRegisterFormNameTextEdit">#CFD8DC</color>                            <!-- BlueGray 50 100 -->
+    <color name="colorUnderlineRegisterFormPasswordTextEdit">#CFD8DC</color>                        <!-- BlueGray 50 100 -->
+
+    <!-- Material.Edit.Text.APP... -->
+    <!-- APP:MET_PRIMARY_COLOR -->
+    <color name="colorPrimaryLoginFormEmailTextEdit">#CFD8DC</color>                                <!-- BlueGray 50 100 -->
+    <color name="colorPrimaryLoginFormPasswordTextEdit">#CFD8DC</color>                             <!-- BlueGray 50 100 -->
+    <!-- Register -->
+    <color name="colorPrimaryRegisterFormEmailTextEdit">#CFD8DC</color>                             <!-- BlueGray 50 100 -->
+    <color name="colorPrimaryRegisterFormNameTextEdit">#CFD8DC</color>                              <!-- BlueGray 50 100 -->
+    <color name="colorPrimaryRegisterFormPasswordTextEdit">#CFD8DC</color>                          <!-- BlueGray 50 100 -->
+
+    <!-- Material.Edit.Text.Color login -->
+    <color name="colorTextLoginFormEmailMaterialTextEdit">#CFD8DC</color>                           <!-- BlueGray 50 100 -->
+    <color name="colorTextLoginFormPasswordMaterialTextEdit">#CFD8DC</color>                        <!-- BlueGray 50 100 -->
+    <!-- material.Edit.Text.Color register -->
+    <color name="colorTextRegisterFormEmailMaterialTextEdit">#CFD8DC</color>                        <!-- BlueGray 50 100 -->
+    <color name="colorTextRegisterFormNameMaterialTextEdit">#CFD8DC</color>                         <!-- BlueGray 50 100 -->
+    <color name="colorTextRegisterFormPasswordMaterialTextEdit">#CFD8DC</color>                     <!-- BlueGray 50 100 -->
+
+    <!-- HINT -->
+    <color name="colorHintTextLoginFormEmailmaterialTextEdit">#CFD8DC</color>                       <!-- BlueGray 50 100 -->
+    <color name="colorHintTextLoginFormPasswordMaterialTextEdit">#CFD8DC</color>                    <!-- BlueGray 50 100 -->
+    <!-- HINT - Register -->
+    <color name="colorHintTextRegisterFormEmailMaterialTextEdit">#CFD8DC</color>                    <!-- BlueGray 50 100 -->
+    <color name="colorHintTextRegisterFormNameMaterialTextEdit">#CFD8DC</color>                     <!-- BlueGray 50 100 -->
+    <color name="colorHintTextRegisterFormPasswordMaterialTextEdit">#CFD8DC</color>                 <!-- BlueGray 50 100 -->
+
+    <!-- LinearLayout Panel AREA -->
+    <!-- LinearLayout Panel1 AREA background ( Account.Login.Form.Material.Edit.Text ) -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_start">#bc546E7A</color>      <!-- BlueGray 50 600     --><!-- Opacity 65% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_center">#bc263238</color>     <!-- BlueGray 50 900     --><!-- Opacity 65% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_end">#bc263238</color>        <!-- BlueGray 50 900     --><!-- Opacity 65% -->
+    <!-- LinearLayout Panel1 STROKE -->
+    <color name="colorLinearLayoutStrokeAcountLoginForm">#546E7A</color>                            <!-- BlueGray 50 500 -->
+
+    <!-- LinearLayout Panel1 AREA background ( Account.Register.Form.Material.Edit.Text ) -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_start">#bc546E7A</color>   <!-- BlueGray 50 600     --><!-- Opacity 65% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_center">#bc263238</color>  <!-- BlueGray 50 900     --><!-- Opacity 65% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_end">#bc263238</color>     <!-- BlueGray 50 900     --><!-- Opacity 65% -->
+    <!-- LinearLayout Panel1 STROKE -->
+    <color name="colorLinearLayoutStrokeAcountRegisterForm">#546E7A</color>                         <!-- BlueGray 50 500 -->
+
+
+    <!-- BUTTONS -->
+    <!-- Account.Login.Form.Button.loginIN -->
+    <color name="colorAccountLoginFormButtonLoginInDefault_start">#78909C</color>                   <!-- BlueGray 50 400     -->
+    <color name="colorAccountLoginFormButtonLoginInDefault_center">#546E7A</color>                  <!-- BlueGray 50 600     -->
+    <color name="colorAccountLoginFormButtonLoginInDefault_end">#78909C</color>                     <!-- BlueGray 50 400     -->
+    <!-- PRESS -->
+    <color name="colorAccountLoginFormButtonLoginInPress_start">#4A148C</color>                     <!-- Purple 50 900     -->
+    <color name="colorAccountLoginFormButtonLoginInPress_center">#7B1FA2</color>                    <!-- Purple 50 700     -->
+    <color name="colorAccountLoginFormButtonLoginInPress_end">#4A148C</color>                       <!-- Purple 50 900     -->
+    <!-- Account.Login.Form.Button.RegisterIN -->
+    <color name="colorAccountRegisterFormButtonRegisterInDefault_start">#78909C</color>             <!-- BlueGray 50 400     -->
+    <color name="colorAccountRegisterFormButtonRegisterInDefault_center">#546E7A</color>            <!-- BlueGray 50 600     -->
+    <color name="colorAccountRegisterFormButtonRegisterInDefault_end">#78909C</color>               <!-- BlueGray 50 400     -->
+    <!-- PRESS -->
+    <color name="colorAccountRegisterFormButtonRegisterInPress_start">#006064</color>               <!-- Cyan 50 900     -->
+    <color name="colorAccountRegisterFormButtonRegisterInPress_center">#0097A7</color>              <!-- Cyan 50 700     -->
+    <color name="colorAccountRegisterFormButtonRegisterInPress_end">#006064</color>                 <!-- Cyan 50 900     -->
+
+    <!-- Account.Login.Form.Button.Continue.Stroke -->
+    <color name="colorAccountLoginFormButtonLoginInDefaultStroke">#546E7A</color>                   <!-- BlueGray 50 400 -->
+    <color name="colorAccountLoginFormButtonLoginInPressStroke">#4A148C</color>                     <!-- Purple 50 900 -->
+    <color name="colorAccountRegisterFormButtonRegisterInDefaultStroke">#546E7A</color>             <!-- BlueGray 50 400 -->
+    <color name="colorAccountRegisterFormButtonRegisterInPressStroke">#006064</color>               <!-- Cyan 50 900 -->
+
+    <!-- Account.Login.Form.Button.Continue.Text AND .Hint -->
+    <color name="colorAccountLoginFormButtonContinueText">#ECEFF1</color>                           <!-- BlueGray 50 000 -->
+    <color name="colorAccountRegisterFormButtonContinueText">#ECEFF1</color>                        <!-- BlueGray 50 000 -->
+
+
+    <!-- TextView -->
+    <color name="colorAccountLoginFormTextViewTitleText">#ECEFF1</color>                            <!-- BlueGray 50 000 -->
+    <!-- Register TextView -->
+    <color name="colorAccountRegisterFormTextViewTitleText">#ECEFF1</color>                         <!-- BlueGray 50 000 -->
+    <color name="colorAccountLoginFormTextViewRegisterMessageTxt1">#ECEFF1</color>                  <!-- BlueGray 50 000 -->
+    <color name="colorAccountLoginFormTextViewRegisterMessageTxt2">#42A5F5</color>                  <!-- Blue 50 400 -->
+
+
+</resources>

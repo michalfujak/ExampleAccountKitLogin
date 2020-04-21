@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ExampleAccountKitLogin</string>
+    <!-- com.rengwuxian.materialedittext.MaterialEditText -->
+    <string name="account_login_form_edit_text_email_value">Email</string>
+    <string name="account_login_form_edit_text_password_value">Password</string>
+    <string name="account_register_form_edit_text_email_value">Email</string>
+    <string name="account_register_form_edit_text_name_value">Meno</string>
+    <string name="account_register_form_edit_text_password_value">Password</string>
+
+    <!-- Button Account.Login.Form.Button  -->
+    <string name="account_login_form_button_continue_value">Prihlasit sa!</string>
+    <string name="account_register_form_button_continue_value">Registrovať sa!</string>
+
+    <!-- TextView Account.Login.Form.TextView -->
+    <string name="account_login_form_title_text_view">Prihlasenie</string>
+    <!-- TextView Account.Register.Form.TextView -->
+    <string name="account_register_form_title_text_view">Registrácia</string>
+
+    <!-- TextView Account.Login.Form.TextView.Register.Message -->
+    <string name="account_login_form_text_view_message1_register_label">Nemáte účet, </string>
+    <string name="account_login_form_text_view_message2_register_label">prosím registrujte sa.</string>
+</resources>
+
+    <!-- SOURCE CONTINUE -->
+    <!-- URL:         https://www.youtube.com/watch?v=xXb_QUC4y-8 -->
+    <!-- TIME:        29:00 -->

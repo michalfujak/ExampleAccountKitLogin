@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Activity.MainActivity"
+    android:background="@drawable/account_register_content_main_background"
+    >
+    <!-- Content LinearLayout -->
+    <LinearLayout
+        android:id="@+id/linear_layout_register_content_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!-- IMAGE ICON LinearLayout REGISTER -->
+        <LinearLayout
+            android:id="@+id/linear_layout_register_area_picture"
+            style="@style/linearlayout_register_area_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!-- ImageView Register image -->
+            <ImageView
+                android:id="@+id/image_view_register_picture"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/register_icon_96x96dp" />
+        </LinearLayout>
+        <!-- Scroll view -->
+        <ScrollView
+            android:id="@+id/scroll_register_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!-- Content LinearLayout Center -->
+            <LinearLayout
+                android:id="@+id/account_register_linear_layout_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <!-- View Content -->
+                <LinearLayout
+                    android:id="@+id/linear_layout_register_modul_content_edittext"
+                    style="@style/linearlayout_register_panel1_material_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/linear_layout_panel1_account_register_form_background"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <!-- LinearLayout Register AREA button close right -->
+                    <LinearLayout
+                        android:id="@+id/linear_layout_account_register_form_closed"
+                        style="@style/linearlayout_account_register_form_area_closed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:gravity="end"
+                        android:orientation="horizontal"
+                        android:paddingEnd="0dp">
+                        <!-- ImageView button close -->
+                        <ImageView
+                            android:id="@+id/image_view_account_register_form_image_close"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/accout_login_form_button_close_24x24" />
+                    </LinearLayout>
+                    <!-- Account.Register.Form.Title  -->
+                    <TextView
+                        android:id="@+id/text_view_account_register_form_title_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/orange_juice"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="@string/account_register_form_title_text_view"
+                        android:textColor="@color/colorAccountRegisterFormTextViewTitleText"
+                        android:textSize="34sp"
+                        />
+                    <!-- Forms.Registration Material.Edit.Text -->
+                    <!-- Email -->
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/register_field_email"
+                        style="@style/account_register_form_email_textedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/icon_email_24x24dp"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/orange_juice"
+                        android:gravity="start"
+                        android:hint="@string/account_register_form_edit_text_email_value"
+                        android:inputType="textVisiblePassword"
+                        android:textColor="@color/colorTextRegisterFormEmailMaterialTextEdit"
+                        android:textColorHint="@color/colorHintTextRegisterFormEmailMaterialTextEdit"
+                        android:textSize="20sp"
+                        app:met_baseColor="@color/colorBaseRegisterFormEmailTextEditWhite"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="32"
+                        app:met_primaryColor="@color/colorPrimaryRegisterFormEmailTextEdit"
+                        app:met_underlineColor="@color/colorUnderlineRegisterFormEmailTextEdit" />
+                    <!-- Name -->
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/register_field_name"
+                        style="@style/account_register_form_name_textedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/icon_user_24x24dp"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/orange_juice"
+                        android:gravity="start"
+                        android:hint="@string/account_register_form_edit_text_name_value"
+                        android:inputType="textVisiblePassword"
+                        android:textColor="@color/colorTextRegisterFormNameMaterialTextEdit"
+                        android:textColorHint="@color/colorHintTextRegisterFormNameMaterialTextEdit"
+                        android:textSize="20sp"
+                        app:met_baseColor="@color/colorBaseRegisterFormNameTextEditWhite"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="32"
+                        app:met_primaryColor="@color/colorPrimaryRegisterFormNameTextEdit"
+                        app:met_underlineColor="@color/colorUnderlineRegisterFormNameTextEdit" />
+                    <!-- PassWord -->
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/register_field_password"
+                        style="@style/account_register_form_password_textedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/icon_password_24x24dp"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/orange_juice"
+                        android:gravity="start"
+                        android:hint="@string/account_register_form_edit_text_password_value"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorTextRegisterFormPasswordMaterialTextEdit"
+                        android:textColorHint="@color/colorHintTextRegisterFormPasswordMaterialTextEdit"
+                        android:textSize="20sp"
+                        app:met_baseColor="@color/colorBaseRegisterFormPasswordTextEditWhite"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="32"
+                        app:met_primaryColor="@color/colorPrimaryRegisterFormPasswordTextEdit"
+                        app:met_underlineColor="@color/colorUnderlineRegisterFormPasswordTextEdit" />
+                    <!-- View.div -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+                    <!-- Button -->
+                    <Button
+                        android:id="@+id/register_button_submit_action"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/account_register_form_button_register_in_background_selected"
+                        android:fontFamily="@font/orange_juice"
+                        android:paddingStart="30dp"
+                        android:paddingEnd="30dp"
+                        android:text="@string/account_register_form_button_continue_value"
+                        android:textColor="@color/colorAccountRegisterFormButtonContinueText"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Skeleton Components -->
+    <!-- Material.Edit.Text Email -->
+    <style name="account_login_form_email_textedit" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+    <!-- Material.Edit.text Password -->
+    <style name="account_login_form_password_textedit" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+    <!-- Register Material.Edit.Text -->
+    <!-- Material.Edit.Text Register.Email -->
+    <style name="account_register_form_email_textedit" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+    <!-- Material.Edit.Text Register.Name -->
+    <style name="account_register_form_name_textedit" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+    <!-- Material.Edit.Text Register.PassWord -->
+    <style name="account_register_form_password_textedit" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+
+    <!-- LinearLayout Panel AREA -->
+    <!-- LinearLayout Panel1 AREA - MaterialEditText -->
+    <!-- LinearLayout MODUL - Panel1 ( Oblast Score ) -->
+    <style name="linearlayout_panel1_material_edit_text" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <!-- LinearLayout Account Login AREA picture -->
+    <style name="linearlayout_login_area_picture" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <!-- LinearLayout Account Login Form AREA closed button -->
+    <style name="linearlayout_account_login_form_area_closed" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+    </style>
+
+    <!-- Linearlayout Account.Login.Form.Area.Next.Text Register message -->
+    <style name="linearlayout_account_login_form_area_next_text_register" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+    </style>
+
+    <!-- REGISTER LAYOUT -->
+    <!-- LinearLayout Account Register AREA picture -->
+    <style name="linearlayout_register_area_picture" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <!-- LinearLayout Panel AREA -->
+    <!-- LinearLayout Register Panel1 AREA - MaterialEditText -->
+    <!-- LinearLayout MODUL - Panel1 ( Oblast EditText ) -->
+    <style name="linearlayout_register_panel1_material_edit_text" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <!-- LinearLayout Account Register Form AREA closed button -->
+    <style name="linearlayout_account_register_form_area_closed" parent="Base.Widget.AppCompat.ActionBar.TabView">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingLeft">1dp</item>
+        <item name="android:paddingTop">1dp</item>
+        <item name="android:paddingBottom">1dp</item>
+    </style>
+</resources>

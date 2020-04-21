@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal|center"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Activity.MainActivity"
+    android:background="@drawable/linear_layout_background_content_main"
+    >
+    <!-- Content Linear Layout -->
+    <LinearLayout
+        android:id="@+id/linear_layout_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:orientation="vertical">
+        <!-- LinearLayout Image login picture -->
+        <LinearLayout
+            android:id="@+id/linear_layout_login_area_picture"
+            style="@style/linearlayout_login_area_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!-- ImageView Login picture -->
+            <ImageView
+                android:id="@+id/image_view_login_picture"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_margin="2dp"
+                android:src="@drawable/account_profile_login_form_96x96" />
+        </LinearLayout>
+        <!-- Scroll view -->
+        <ScrollView
+            android:id="@+id/scroll_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!-- Content LinearLayout -->
+            <LinearLayout
+                android:id="@+id/linear_layout_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="5dp"
+                android:orientation="vertical">
+                <!-- View content -->
+                <LinearLayout
+                    android:id="@+id/linear_layout_modul_content_edittext"
+                    style="@style/linearlayout_panel1_material_edit_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/linear_layout_panel1_account_login_form_background"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <!-- LinearLayout area button close right -->
+                    <LinearLayout
+                        android:id="@+id/linear_layout_account_login_form_closed"
+                        style="@style/linearlayout_account_login_form_area_closed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:gravity="end"
+                        android:orientation="horizontal"
+                        android:paddingEnd="0dp">
+                        <!-- ImageView button close -->
+                        <ImageView
+                            android:id="@+id/image_view_account_login_form_image_close"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_margin="0dp"
+                            android:padding="0dp"
+                            android:src="@drawable/accout_login_form_button_close_24x24" />
+
+                    </LinearLayout>
+                    <!-- Account.Login.Form.Title  -->
+                    <TextView
+                        android:id="@+id/text_vie_account_login_form_title_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/orange_juice"
+                        android:gravity="center"
+                        android:padding="3dp"
+                        android:text="@string/account_login_form_title_text_view"
+                        android:textColor="@color/colorAccountLoginFormTextViewTitleText"
+                        android:textSize="34sp" />
+                    <!--FORM.login - Field Email -->
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/login_field_email"
+                        style="@style/account_login_form_email_textedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/icon_user_24x24dp"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/orange_juice"
+                        android:gravity="start"
+                        android:hint="@string/account_login_form_edit_text_email_value"
+                        android:inputType="textVisiblePassword"
+                        android:textColor="@color/colorTextLoginFormEmailMaterialTextEdit"
+                        android:textColorHint="@color/colorHintTextLoginFormEmailmaterialTextEdit"
+                        android:textSize="20sp"
+                        app:met_baseColor="@color/colorBaseLoginFormEmailTextEditWhite"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="32"
+                        app:met_primaryColor="@color/colorPrimaryLoginFormEmailTextEdit"
+                        app:met_underlineColor="@color/colorUnderlineLoginFormEmailTextEdit" />
+                    <!-- FORM.login  - Fiels PassWord -->
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/login_field_password"
+                        style="@style/account_login_form_password_textedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableStart="@drawable/icon_password_24x24dp"
+                        android:drawablePadding="15dp"
+                        android:fontFamily="@font/orange_juice"
+                        android:gravity="start"
+                        android:hint="@string/account_login_form_edit_text_password_value"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorTextLoginFormPasswordMaterialTextEdit"
+                        android:textColorHint="@color/colorHintTextLoginFormPasswordMaterialTextEdit"
+                        android:textSize="20sp"
+                        app:met_baseColor="@color/colorBaseLoginFormPasswordTextEditWhite"
+                        app:met_floatingLabel="highlight"
+                        app:met_maxCharacters="12"
+                        app:met_primaryColor="@color/colorPrimaryLoginFormPasswordTextEdit"
+                        app:met_underlineColor="@color/colorUnderlineLoginPasswordEmailTextEdit" />
+                    <!-- View.div -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+                    <!-- Button -->
+                    <Button
+                        android:id="@+id/login_button_submit_action"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/account_login_form_login_in_background_selected"
+                        android:fontFamily="@font/orange_juice"
+                        android:paddingStart="30dp"
+                        android:paddingEnd="30dp"
+                        android:text="@string/account_login_form_button_continue_value"
+                        android:textColor="@color/colorAccountLoginFormButtonContinueText"
+                        android:textSize="15sp" />
+                    <!-- View.Div -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_account_login_form_next_text_register"
+                        style="@style/linearlayout_account_login_form_area_next_text_register"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+                        <!-- TextView txt 1 -->
+                        <TextView
+                            android:id="@+id/text_view_account_login_form_next_message_register_txt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:fontFamily="@font/orange_juice"
+                            android:padding="2dp"
+                            android:text="@string/account_login_form_text_view_message1_register_label"
+                            android:textColor="@color/colorAccountLoginFormTextViewRegisterMessageTxt1"
+                            android:textSize="18sp" />
+                        <!-- textView txt 2 -->
+                        <TextView
+                            android:id="@+id/text_view_account_login_form_next_message_register_txt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="0dp"
+                            android:fontFamily="@font/orange_juice"
+                            android:padding="2dp"
+                            android:text="@string/account_login_form_text_view_message2_register_label"
+                            android:textColor="@color/colorAccountLoginFormTextViewRegisterMessageTxt2"
+                            android:textSize="18sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
