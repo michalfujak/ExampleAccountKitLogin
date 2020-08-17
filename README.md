@@ -2,8 +2,8 @@
 
 Images screen login:
 
-![alt text](https://github.com/michalfujak/ExampleAccountKitLogin/blob/master/design_solutions/screeshot/screen_login.jpg "Login")
+![alt text](https://github.com/michalfujak/ExampleAccountKitLogin/blob/master/design_solutions/screeshot/example_login_auth_screenshot_01.jpg "Login")
 
 Images screen register:
 
-![alt text](https://github.com/michalfujak/ExampleAccountKitLogin/blob/master/design_solutions/screeshot/screen_register.jpg "Register")
+![alt text](https://github.com/michalfujak/ExampleAccountKitLogin/blob/master/design_solutions/screeshot/example_login_auth_screenshot_02.jpg "Register")
