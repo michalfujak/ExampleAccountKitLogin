@@ -71,16 +71,16 @@
 
     <!-- LinearLayout Panel AREA -->
     <!-- LinearLayout Panel1 AREA background ( Account.Login.Form.Material.Edit.Text ) -->
-    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_start">#bc546E7A</color>      <!-- BlueGray 50 600     --><!-- Opacity 65% -->
-    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_center">#bc263238</color>     <!-- BlueGray 50 900     --><!-- Opacity 65% -->
-    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_end">#bc263238</color>        <!-- BlueGray 50 900     --><!-- Opacity 65% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_start">#AE263238</color>      <!-- BlueGray 50 900     --><!-- Opacity 55% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_center">#E2263238</color>     <!-- BlueGray 50 900     --><!-- Opacity 85% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_login_form_end">#E2263238</color>        <!-- BlueGray 50 900     --><!-- Opacity 85% -->
     <!-- LinearLayout Panel1 STROKE -->
     <color name="colorLinearLayoutStrokeAcountLoginForm">#546E7A</color>                            <!-- BlueGray 50 500 -->
 
     <!-- LinearLayout Panel1 AREA background ( Account.Register.Form.Material.Edit.Text ) -->
-    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_start">#bc546E7A</color>   <!-- BlueGray 50 600     --><!-- Opacity 65% -->
-    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_center">#bc263238</color>  <!-- BlueGray 50 900     --><!-- Opacity 65% -->
-    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_end">#bc263238</color>     <!-- BlueGray 50 900     --><!-- Opacity 65% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_start">#AE263238</color>   <!-- BlueGray 50 900     --><!-- Opacity 55% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_center">#E2263238</color>  <!-- BlueGray 50 900     --><!-- Opacity 85% -->
+    <color name="colorLinearLayoutBackgroundPanel1_account_register_form_end">#E2263238</color>     <!-- BlueGray 50 900     --><!-- Opacity 85% -->
     <!-- LinearLayout Panel1 STROKE -->
     <color name="colorLinearLayoutStrokeAcountRegisterForm">#546E7A</color>                         <!-- BlueGray 50 500 -->
 

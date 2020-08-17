@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#387E4C"
+    android:background="@drawable/background_train_stage1"
     tools:context=".Activity.HomeActivity">
 
 </LinearLayout>

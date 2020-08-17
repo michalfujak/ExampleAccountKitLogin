@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:padding="15dp"
     tools:context=".Activity.MainActivity"
-    android:background="@drawable/linear_layout_background_content_main"
+    android:background="@drawable/background_train_stage1"
     >
     <!-- Content Linear Layout -->
     <LinearLayout
@@ -83,12 +83,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:fontFamily="@font/orange_juice"
+                        android:fontFamily="@font/killing_font"
                         android:gravity="center"
                         android:padding="3dp"
                         android:text="@string/account_login_form_title_text_view"
                         android:textColor="@color/colorAccountLoginFormTextViewTitleText"
-                        android:textSize="34sp" />
+                        android:textSize="30sp" />
                     <!--FORM.login - Field Email -->
                     <com.rengwuxian.materialedittext.MaterialEditText
                         android:id="@+id/login_field_email"
@@ -97,7 +97,7 @@
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/icon_user_24x24dp"
                         android:drawablePadding="15dp"
-                        android:fontFamily="@font/orange_juice"
+                        android:fontFamily="@font/killing_font"
                         android:gravity="start"
                         android:hint="@string/account_login_form_edit_text_email_value"
                         android:inputType="textVisiblePassword"
@@ -117,7 +117,7 @@
                         android:layout_height="wrap_content"
                         android:drawableStart="@drawable/icon_password_24x24dp"
                         android:drawablePadding="15dp"
-                        android:fontFamily="@font/orange_juice"
+                        android:fontFamily="@font/killing_font"
                         android:gravity="start"
                         android:hint="@string/account_login_form_edit_text_password_value"
                         android:inputType="textPassword"
@@ -140,7 +140,7 @@
                         android:layout_height="50dp"
                         android:layout_weight="1"
                         android:background="@drawable/account_login_form_login_in_background_selected"
-                        android:fontFamily="@font/orange_juice"
+                        android:fontFamily="@font/killing_font"
                         android:paddingStart="30dp"
                         android:paddingEnd="30dp"
                         android:text="@string/account_login_form_button_continue_value"
@@ -165,22 +165,22 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="0dp"
-                            android:fontFamily="@font/orange_juice"
+                            android:fontFamily="@font/killing_font"
                             android:padding="2dp"
                             android:text="@string/account_login_form_text_view_message1_register_label"
                             android:textColor="@color/colorAccountLoginFormTextViewRegisterMessageTxt1"
-                            android:textSize="18sp" />
+                            android:textSize="14sp" />
                         <!-- textView txt 2 -->
                         <TextView
                             android:id="@+id/text_view_account_login_form_next_message_register_txt2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_margin="0dp"
-                            android:fontFamily="@font/orange_juice"
+                            android:fontFamily="@font/killing_font"
                             android:padding="2dp"
                             android:text="@string/account_login_form_text_view_message2_register_label"
                             android:textColor="@color/colorAccountLoginFormTextViewRegisterMessageTxt2"
-                            android:textSize="18sp" />
+                            android:textSize="14sp" />
 
                     </LinearLayout>
 
